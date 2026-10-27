@@ -1,0 +1,489 @@
+[
+  {
+    "repository": "CadLISP-CHSC",
+    "title": "跨視埠比例複製註解",
+    "category": "配置與圖層",
+    "commands": [
+      "CHSC"
+    ],
+    "file": "CHSC.lsp",
+    "path": "repositories/CadLISP-CHSC",
+    "status": "來源快照，實機回歸待完成",
+    "description": "依來源及目標視埠的 CustomScale 比值，在圖紙空間複製物件並換算位置及尺寸。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "layouts",
+      "layers"
+    ],
+    "sha256": "7681908e7ab49297f40e064e0f2e3ca36fd8daf04816056adf3d067638e906b7",
+    "known_issue": null
+  },
+  {
+    "repository": "CadLISP-CLL",
+    "title": "FCL 與 FFL 標高標記",
+    "category": "尺寸與註解",
+    "commands": [
+      "CLL"
+    ],
+    "file": "CLL.lsp",
+    "path": "repositories/CadLISP-CLL",
+    "status": "來源快照，實機回歸待完成",
+    "description": "從框選 DIMENSION 的有效延伸線端點放置 A1-CL-LEVEL 標記，支援 FCL 與 FFL 模式。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "dimensions",
+      "annotation"
+    ],
+    "sha256": "9f88e9ba7129369d6d39fdfd815511fccd1869dfd7470e8cc6a07038f9585ae3",
+    "known_issue": "版本文字待統一"
+  },
+  {
+    "repository": "CadLISP-CLN",
+    "title": "純數字標高標記",
+    "category": "尺寸與註解",
+    "commands": [
+      "CLN"
+    ],
+    "file": "CLN.lsp",
+    "path": "repositories/CadLISP-CLN",
+    "status": "來源快照，實機回歸待完成",
+    "description": "沿用尺寸端點擷取流程，放置清空類型文字的數字標高圖塊。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "dimensions",
+      "annotation"
+    ],
+    "sha256": "a6640e70af15dd2575e9b2e3352ba8ed9229d64996fdf913e87b80b8f0107681",
+    "known_issue": "版本與介面需留意"
+  },
+  {
+    "repository": "CadLISP-CV2D",
+    "title": "聚合線轉換與標高歸零",
+    "category": "幾何處理",
+    "commands": [
+      "CV2D"
+    ],
+    "file": "CV2D.LSP",
+    "path": "repositories/CadLISP-CV2D",
+    "status": "有待修正的原碼問題",
+    "description": "嘗試將符合篩選的舊式 POLYLINE 轉成輕量聚合線，再把全圖 LWPOLYLINE 標高設為 0。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "geometry",
+      "polylines"
+    ],
+    "sha256": "bf209086e7847231940401ab931a2fe5f32fcc4f3f092794261ada8ec695eebf",
+    "known_issue": "需先修正"
+  },
+  {
+    "repository": "CadLISP-DLX",
+    "title": "線性尺寸接續標註",
+    "category": "尺寸與註解",
+    "commands": [
+      "DLX"
+    ],
+    "file": "DLX.lsp",
+    "path": "repositories/CadLISP-DLX",
+    "status": "來源快照，實機回歸待完成",
+    "description": "先執行原生 DIMLINEAR，再選擇是否接續 DIMCONTINUE。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "dimensions",
+      "annotation"
+    ],
+    "sha256": "be9416b476aa6974bdf97092732b5a714885aac7673378ea400bb25544590267",
+    "known_issue": null
+  },
+  {
+    "repository": "CadLISP-EQNUM",
+    "title": "尺寸等分文字",
+    "category": "尺寸與註解",
+    "commands": [
+      "EQNUM"
+    ],
+    "file": "EQ_NUM.lsp",
+    "path": "repositories/CadLISP-EQNUM",
+    "status": "來源快照，實機回歸待完成",
+    "description": "依輸入數量，為選取尺寸套用 EQ 覆寫或等分後綴。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "dimensions",
+      "annotation"
+    ],
+    "sha256": "c278f80f9604dd7d10bb0a9126cc3c552c2e88e46047392bcb28722b0718ec31",
+    "known_issue": null
+  },
+  {
+    "repository": "CadLISP-GPDIM",
+    "title": "夾點連續尺寸",
+    "category": "尺寸與註解",
+    "commands": [
+      "GPDIM"
+    ],
+    "file": "GPDIM.lsp",
+    "path": "repositories/CadLISP-GPDIM",
+    "status": "來源快照，實機回歸待完成",
+    "description": "整理框選範圍內有效幾何基準點，產生水平或垂直分段尺寸，符合條件時加上總尺寸。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "dimensions",
+      "annotation"
+    ],
+    "sha256": "2d61a024287de09070bcb20e170221c107aedf0b4c0b9a469d8b78ff195a19fb",
+    "known_issue": null
+  },
+  {
+    "repository": "CadLISP-H2A",
+    "title": "填充線面積欄位與分色",
+    "category": "尺寸與註解",
+    "commands": [
+      "H2A"
+    ],
+    "file": "H2A.lsp",
+    "path": "repositories/CadLISP-H2A",
+    "status": "來源快照，實機回歸待完成",
+    "description": "把 HATCH 面積寫成欄位文字，支援單一填充、複選加總及相鄰填充分色。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "dimensions",
+      "annotation"
+    ],
+    "sha256": "9eac707cfed05f84a1e32cbabe55ce2be1dc444255778f090f58fcf2082808e2",
+    "known_issue": null
+  },
+  {
+    "repository": "CadLISP-IncBlock",
+    "title": "圖塊屬性尾碼遞增",
+    "category": "屬性與編號",
+    "commands": [
+      "INCBLOCK"
+    ],
+    "file": "Incblock.lsp",
+    "path": "repositories/CadLISP-IncBlock",
+    "status": "有待修正的原碼問題",
+    "description": "讀取來源屬性尾端數字，連續插入同名圖塊並遞增，其他屬性沿用原值。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "block-attributes",
+      "numbering"
+    ],
+    "sha256": "2f1576db496d7d368070ceb9aa20b07e57ce7a2481a8bd8eb8a4530a9052daac",
+    "known_issue": "需先修正"
+  },
+  {
+    "repository": "CadLISP-LayerDirector",
+    "title": "依命令自動分層",
+    "category": "配置與圖層",
+    "commands": [
+      "LDON",
+      "LDOFF",
+      "LDM"
+    ],
+    "file": "LayerDirector.lsp",
+    "path": "repositories/CadLISP-LayerDirector",
+    "status": "來源快照，實機回歸待完成",
+    "description": "執行文字、引線與尺寸命令時暫時切換對應圖層，結束後還原；外部參考依名稱分層。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "layouts",
+      "layers"
+    ],
+    "sha256": "89863742b13e53ab6edb71e97c4db6d2395a7983632c1e8ca62b80a060319570",
+    "known_issue": null
+  },
+  {
+    "repository": "CadLISP-LAYSEQ",
+    "title": "配置頁籤批次編號",
+    "category": "配置與圖層",
+    "commands": [
+      "LAYSEQ"
+    ],
+    "file": "LAYSEQ.lsp",
+    "path": "repositories/CadLISP-LAYSEQ",
+    "status": "來源快照，實機回歸待完成",
+    "description": "依目前 TabOrder 對選取的紙空間配置套用前綴及連續號碼。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "layouts",
+      "layers"
+    ],
+    "sha256": "bcbbc5dee799fee709e0c68a738101cfbee967b347157ef0b4a367076ca5253d",
+    "known_issue": null
+  },
+  {
+    "repository": "CadLISP-LOFTLINES",
+    "title": "兩曲線間插值",
+    "category": "幾何處理",
+    "commands": [
+      "LOFTLINES"
+    ],
+    "file": "LOFTLINES.lsp",
+    "path": "repositories/CadLISP-LOFTLINES",
+    "status": "來源快照，實機回歸待完成",
+    "description": "在兩條邊界曲線間建立指定數量的中間線，依來源種類輸出 LINE、LWPOLYLINE 或 SPLINE。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "geometry",
+      "polylines"
+    ],
+    "sha256": "f642be120f1f081d9d4aeb99ea94e42ff26c2b3c64affe607cfe2d3ebd3b2827",
+    "known_issue": null
+  },
+  {
+    "repository": "CadLISP-MBP-MBI",
+    "title": "多點與交點切割",
+    "category": "幾何處理",
+    "commands": [
+      "MBP",
+      "MBI"
+    ],
+    "file": "MBP_MBI.lsp",
+    "path": "repositories/CadLISP-MBP-MBI",
+    "status": "來源快照，實機回歸待完成",
+    "description": "MBP 對單一曲線指定多個切點；MBI 以複選切割邊，切開複選目標的有效交點。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "geometry",
+      "polylines"
+    ],
+    "sha256": "6f9845641d81ebcc3a98452179f3afd9c7e23139f4631afd1ed42ee9fd96e1e1",
+    "known_issue": null
+  },
+  {
+    "repository": "CadLISP-MML",
+    "title": "連續多重引線與對齊",
+    "category": "尺寸與註解",
+    "commands": [
+      "MML"
+    ],
+    "file": "MML.lsp",
+    "path": "repositories/CadLISP-MML",
+    "status": "來源快照，實機回歸待完成",
+    "description": "連續建立 MLEADER，結束後以 MLEADERALIGN 排列本次新增的引線。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "dimensions",
+      "annotation"
+    ],
+    "sha256": "11bbe824b5e7e85eeb1ea35d19d2b40443d8486cd6d5eca5a6fb2d93d291fb55",
+    "known_issue": null
+  },
+  {
+    "repository": "CadLISP-Outline",
+    "title": "多群組外輪廓",
+    "category": "幾何處理",
+    "commands": [
+      "OUTLINE"
+    ],
+    "file": "outline.lsp",
+    "path": "repositories/CadLISP-Outline",
+    "status": "來源快照，實機回歸待完成",
+    "description": "對選取曲線的工作副本搜尋外圈，每個互不相連的群組各輸出輪廓。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "geometry",
+      "polylines"
+    ],
+    "sha256": "0b2917343ab2f5ac0b02834b5ac04f45e972f0807aa6061b384eb0d6acc79dc2",
+    "known_issue": null
+  },
+  {
+    "repository": "CadLISP-PLS",
+    "title": "單條聚合線簡化",
+    "category": "幾何處理",
+    "commands": [
+      "PLS"
+    ],
+    "file": "PLS.lsp",
+    "path": "repositories/CadLISP-PLS",
+    "status": "來源快照，實機回歸待完成",
+    "description": "對一條開放且無弧段的 LWPOLYLINE 移除近點並以 RDP 簡化頂點。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "geometry",
+      "polylines"
+    ],
+    "sha256": "1d5797a276d18965597d99439e41b490a826d3e59645c06219cb44e64bc98414",
+    "known_issue": "載入訊息待更正"
+  },
+  {
+    "repository": "CadLISP-PLSM",
+    "title": "批次聚合線簡化",
+    "category": "幾何處理",
+    "commands": [
+      "PLSM"
+    ],
+    "file": "PLSimplify_Multi_v1_7.lsp",
+    "path": "repositories/CadLISP-PLSM",
+    "status": "來源快照，實機回歸待完成",
+    "description": "批次簡化開放且無弧段的 LWPOLYLINE，並回報處理與跳過數量。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "geometry",
+      "polylines"
+    ],
+    "sha256": "d84538541615349e6db074acf323a94bc15751c6eb5ba8754e20e83aad7de487",
+    "known_issue": null
+  },
+  {
+    "repository": "CadLISP-S2P",
+    "title": "SPLINE 批次轉聚合線",
+    "category": "幾何處理",
+    "commands": [
+      "S2P"
+    ],
+    "file": "s2p.lsp",
+    "path": "repositories/CadLISP-S2P",
+    "status": "來源快照，實機回歸待完成",
+    "description": "逐條呼叫 SPLINEDIT，把選取的 SPLINE 轉為聚合線。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "geometry",
+      "polylines"
+    ],
+    "sha256": "c09fcbb65b4065141ee7ef13f1fbc261a3949a014bdf39e51c6cf91d1e4f458d",
+    "known_issue": null
+  },
+  {
+    "repository": "CadLISP-SmartImport",
+    "title": "PDF 底圖與填滿匯入",
+    "category": "匯入與詳圖",
+    "commands": [
+      "SMARTIMPORT"
+    ],
+    "file": "smartimport.lsp",
+    "path": "repositories/CadLISP-SmartImport",
+    "status": "有待修正的原碼問題",
+    "description": "附加 PDF 第一頁為底圖，再以 PDFIMPORT 設定嘗試匯入單色填滿並保留底圖。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "pdf-import",
+      "detail-drawings"
+    ],
+    "sha256": "5c8f2bbbe48364475fc11accfce1d69281c38b1674cb2649bd4bfaca75abd881",
+    "known_issue": "需先修正"
+  },
+  {
+    "repository": "CadLISP-SXX",
+    "title": "同層同長度斜線選取",
+    "category": "幾何處理",
+    "commands": [
+      "SXX"
+    ],
+    "file": "SXX.lsp",
+    "path": "repositories/CadLISP-SXX",
+    "status": "來源快照，實機回歸待完成",
+    "description": "依來源圖層與曲線長度，選取同層中約為 45°／135° 的線或聚合線。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "geometry",
+      "polylines"
+    ],
+    "sha256": "4317a7f0ab097009ee29f934c369f6009ec214a33fd88f1ea44acd8acf7c7002",
+    "known_issue": null
+  },
+  {
+    "repository": "CadLISP-TBX",
+    "title": "放大圖框與索引",
+    "category": "匯入與詳圖",
+    "commands": [
+      "TBX"
+    ],
+    "file": "TBX(blow up).lsp",
+    "path": "repositories/CadLISP-TBX",
+    "status": "來源快照，實機回歸待完成",
+    "description": "依兩角點插入可伸縮的 FRAME，建立引線與 blowup tag 索引圖塊。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "pdf-import",
+      "detail-drawings"
+    ],
+    "sha256": "a18c08d136aafde46210e7542702e4f59690015cb436d2baf62e6a47a2d19ae1",
+    "known_issue": null
+  },
+  {
+    "repository": "CadLISP-VP2BlkScale",
+    "title": "視埠比例寫入與檢核",
+    "category": "屬性與編號",
+    "commands": [
+      "VP2BLKSCALE"
+    ],
+    "file": "VP2BlkScale.lsp",
+    "path": "repositories/CadLISP-VP2BlkScale",
+    "status": "來源快照，實機回歸待完成",
+    "description": "將視埠 CustomScale 轉為比例文字，寫入圖塊 SCALE 屬性，或檢查附近視埠是否與比例文字一致。",
+    "topics": [
+      "autocad",
+      "autolisp",
+      "cad",
+      "cadlisp-tools",
+      "block-attributes",
+      "numbering"
+    ],
+    "sha256": "2a2fa26c2f729e809000127b90e1543e13f9554b0d2314febdfa259529f9b2b4",
+    "known_issue": null
+  }
+]
